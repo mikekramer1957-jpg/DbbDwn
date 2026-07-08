@@ -150,18 +150,24 @@ li {
         width:100%;
         
     }
+
+    /* Tech Stack*/
+
+    .language__img {
+        width: 100%;
+        max-width: px; /* This keeps icons uniform */
+    }
+    .language{
+        flex: 1 0 21%; /*this allows responsive layout */
+        margin: 10px; /* adds space around each icon */
+    }
+    .language__img--wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .language__list {
+        display: flex;
+        flex-wrap: wrap; /*this allows items to wrap onto the next line */
+    }
     
-   
-
-
-    
-
-
-    
-
-
-    
-  
- /* Tech - Stack */
- 
-
