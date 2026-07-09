@@ -156,8 +156,14 @@ li {
     .language__img {
         width: 100%;
         max-width: px; /* This keeps icons uniform */
+        transition: all 300ms ease;
     }
-    .language{
+    .language__img:hover {
+        filter: brightness(80%);
+        opacity: 0,86;
+        transform: scale(0.9);
+    }
+    .language {
         flex: 1 0 21%; /*this allows responsive layout */
         margin: 10px; /* adds space around each icon */
     }
@@ -169,5 +175,10 @@ li {
     .language__list {
         display: flex;
         flex-wrap: wrap; /*this allows items to wrap onto the next line */
+    }  
+    
+    .language__name {
+        position: absolute;
     }
+
     
